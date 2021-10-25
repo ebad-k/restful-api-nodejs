@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-validator": "^6.13.0",
-    "mongoose": "^6.0.12"
-  },
-  "devDependencies": {
+    "mongoose": "^6.0.12",
     "dotenv": "^10.0.0",
     "nodemon": "^2.0.14"
   }
